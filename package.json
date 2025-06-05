@@ -1,13 +1,16 @@
 {
-  "name": "lambdabot-backend",
+  "name": "roster-chatbot",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2",
-    "googleapis": "^127.0.0",
-    "body-parser": "^1.20.2"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
 }
